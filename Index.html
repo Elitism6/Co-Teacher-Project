@@ -19,16 +19,25 @@
     href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="./style.css" />
+  <!--External Libray on Owl Carousel-->
+  <link rel="stylesheet" href="./CSS File/style.css" />
+<link rel="stylesheet" href="/CSS File/Testimonial.css">
   <!--Flaticon-->
-  <a href="https://www.flaticon.com/free-icons/course" title="course icons"
-    >Course icons created by Freepik - Flaticon</a
-  >
+  <link rel="stylesheet" href="./try.html">
+
+
+  > <!--JQuery-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-qFOQ9YFAeGj1gDOuUD61g3D+tLDv3u1ECYWqT82WQoaWrOhAY+5mRMTTVsQdWutbA5FORCnkEPEgU0OF8IzGvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--Carousel-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+ 
   <body>
     <nav class="navbar navbar-expand-sm text-primary">
       <div class="container">
         <a class="navbar-brand" href="#"
-          ><h1 class="text-primary">Co-Teacher</h1></a
+          ><h1 class="text-success">Co-Teacher</h1></a
         >
         <button
           class="navbar-toggler"
@@ -57,10 +66,10 @@
             </li>
           </ul>
           <div class="ms-auto">
-            <button type="button" class="btn btn-primary rounded rounded-pill">
+            <button type="button" class="btn btn-success rounded rounded-pill">
               Sign Up
             </button>
-            <button type="button" class="btn btn-primary rounded rounded-pill">
+            <button type="button" class="btn btn-success rounded rounded-pill">
               Log In
             </button>
           </div>
@@ -68,7 +77,7 @@
       </div>
     </nav>
     <!-- Hero section -->
-    <div class="Hero-section mt-5 m-4">
+    <div class="Hero-section mt-5 m-4 bg-success">
       <div class="container">
         <div class="row px-4 p-4">
           <div class="col-md-6 mt-5 text-white text-center">
@@ -78,13 +87,13 @@
             <h3 class="font-weight-bold">Made for Teachers and Students</h3>
             <button
               type="button"
-              class="btn font-weight-bold btn-primary rounded-pill mt-1 py-3 px-5"
+              class="btn font-weight-bold btn-light rounded-pill mt-1 py-3 px-5 text-succes btn-white"
             >
               I am a Teacher
             </button>
             <button
               type="button"
-              class="btn font-weight-bold btn-primary rounded-pill mt-1 py-3 px-5"
+              class="btn font-weight-bold btn-light rounded-pill mt-1 py-3 px-5 text-success btn-white"
             >
               I am a Student
             </button>
@@ -99,10 +108,12 @@
         </div>
       </div>
     </div>
-    <p class="display-6 font-weight-bold text-center mt-4">
+    <div class="container px-5">
+    <p class="display-6 font-weight-bold text-center mt-4 font-sans-serif text-success ">
       Lesson notes, lesson plans, activity questions and past questions all in
       one platform
     </p>
+</div>
     <!-- Hero section 2 -->
     <div class="container-fluid pt-5">
       <div class="container pb-3">
@@ -186,9 +197,116 @@
               </div>
             </div>
           </div>
-          
         </div>
 
-        
+          <!--Testimonials -->
+          <section class="mt-3">
+            <div class="container mb-3">
+            <h1 class="section-header mb-3">What our Users Say About Us</h1>
+                <div class="testimonials mb-5 bg-light">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner bg-success">
+                        <div class="carousel-item active">
+                          <div class="single-item">
+                              <div class="row">
+                                  <div class="col-md-5">
+                                      <div class="profile">
+                                          <div class="img-area">
+                                              <img src="./Images/1.jpg" alt="">
+                                          </div>
+                                          <div class="bio">
+                                              <h2>Dave Wood</h2>
+                                              <h4>Web Developer</h4>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <div class="content">
+                                          <p><span class="font-weight-bold"><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
+                                          <p class="socials">
+                                              <i class="fa fa-twitter"></i>
+                                              <i class="fa fa-behance"></i>
+                                              <i class="fa fa-pinterest"></i>
+                                              <i class="fa fa-dribbble"></i>
+                                              <i class="fa fa-vimeo"></i>
+                                          </p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="single-item">
+                              <div class="row">
+                                  <div class="col-md-5">
+                                      <div class="profile">
+                                          <div class="img-area">
+                                              <img src="./Images/1.jpg" alt="">
+                                          </div>
+                                          <div class="bio">
+                                              <h2>Martin Guptill</h2>
+                                              <h4>UI/UX Designer</h4>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <div class="content">
+                                          <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
+                                          <p class="socials">
+                                              <i class="fa fa-twitter"></i>
+                                              <i class="fa fa-behance"></i>
+                                              <i class="fa fa-pinterest"></i>
+                                              <i class="fa fa-dribbble"></i>
+                                              <i class="fa fa-vimeo"></i>
+                                          </p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="single-item">
+                              <div class="row">
+                                  <div class="col-md-5">
+                                      <div class="profile">
+                                          <div class="img-area">
+                                              <img src="./Images/Teacher.png" alt="">
+                                          </div>
+                                          <div class="bio">
+                                              <h2>Stephen Jones</h2>
+                                              <h4>Graphic Designer</h4>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <div class="content">
+                                          <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
+                                          <p class="socials">
+                                              <i class="fa fa-twitter"></i>
+                                              <i class="fa fa-behance"></i>
+                                              <i class="fa fa-pinterest"></i>
+                                              <i class="fa fa-dribbble"></i>
+                                              <i class="fa fa-vimeo"></i>
+                                          </p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    
+                </div>
+          </div>
+</section>
+        <div ></div>
   </body>
 </html>
