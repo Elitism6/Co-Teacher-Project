@@ -1,0 +1,14 @@
+.price-card{
+    border: 12px solid rgba(17, 119, 34, 0.801);
+    border-radius: 8px;
+}
+.card-text{
+    font-weight: bolder;
+    font-size: x-large;
+}
+.bi{
+    color: green;
+}
+.null-card{
+    color: red;
+}

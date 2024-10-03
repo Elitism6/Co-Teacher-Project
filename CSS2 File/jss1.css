@@ -1,0 +1,22 @@
+
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  .header-btn {
+    border-radius: 80px;
+  }
+  .nav-link{
+    font-size: larger;
+    font-weight: 900;
+  }
+  .nav-link:hover{ color: #023a1be1;
+    font-size: x-large;
+  }
+  .custom-card{
+    border: 16px solid rgba(3, 122, 39, 0.589);
+    border-radius: 10px; 
+  }
